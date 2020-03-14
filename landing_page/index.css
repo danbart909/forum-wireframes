@@ -1,0 +1,41 @@
+body {
+  font-family: 'Open Sans', regular;
+  font-size: 18px;
+  background-color: whitesmoke;
+  color: black;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 30px 0 0 0;
+/*  min-width: 350px;*/
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  padding: 5px 0 5px 0;
+  background-color: #7C7C7C
+}
+
+main {
+  margin: 10px 0 0 0;
+}
+
+header {
+  padding: 45px 0 35px 0;
+}
+
+section {
+  padding: 20px 0
+}
+
+section:nth-child(even) {
+  background-color: #7C7C7C;
+}
+
+/*
+@media only screen and (min-width: 413px) {
+  
+}*/
